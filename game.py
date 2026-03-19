@@ -58,7 +58,7 @@ class Game:
 
             # dificuldade progressiva
             self.difficulty_timer += 1
-            if self.difficulty_timer > 600:
+            if self.difficulty_timer > 500:
                 self.meteor_speed += 1
                 if self.spawn_delay > 15:
                     self.spawn_delay -= 3
