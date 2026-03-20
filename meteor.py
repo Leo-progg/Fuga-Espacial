@@ -1,5 +1,4 @@
 import pygame
-
 WIDTH = 1024
 
 class Meteor:
